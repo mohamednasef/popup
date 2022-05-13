@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>web site</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/sass/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./fonts/icon/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-image: url(https://i.pinimg.com/originals/7e/1c/0b/7e1c0b3223789770299bc3b66b2fc2a0.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .overlay-pop{
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
+      position:absolute;
+      /* background: #fff; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .overlay-body{
+      border-radius: 12px;
+      width: 100%;
+      min-height: 230px;
+      background-color: #fff;
+      max-width: 650px;
+    }
+    .modal-head{
+      padding: 10px;
+    }
+    .modal-head .close{
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      opacity: 1;
+      border: 1px solid #9e9e9e;
+      border-radius:50%;
+      font-size: 19px;
+      color: #9e9e9e;
+    }
+    .modal-body{
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+<body >
+<!-- start -->
+  <div class="overlay-pop">
+    <div class="overlay-body">
+      <div class="modal-head">
+        <div  class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-4">
+            <div class="mt-4">
+              <img class="img-fluid" src="https://shoutcart.com/uploads/gig/bd6f3a23cd5294a2370b09bc413f3331.png" alt="">
+            </div>
+          </div>
+          <div class="col-8">
+           <div class="">
+            <h5 class="card-title text-primary">Card title</h5>
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <form class="form-inline mt-3">
+              <div class="form-group  mb-2">
+                <label for="inputPassword2" class="sr-only"></label>
+                <input type="text" placeholder="Enter your email..." class="form-control" >
+              </div>
+              <button type="submit" class="btn btn-primary mb-2 mx-sm-3">join!</button>
+            </form>
+           </div>
+          </div>
+          
+        </div>
+   
+      </div>
+    </div>
+
+    </div>
+  </div>
+<!-- start -->
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/poper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/owl.carousel.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

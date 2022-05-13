@@ -1,0 +1,62 @@
+// start var
+$font-main:'Cairo',
+sans-serif;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+
+p {
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ol,
+ul,
+h1,
+h2,
+h3,
+h5,
+h4,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.container {
+    max-width: 1560px;
+    width: 86%;
+}
+body{
+    background: #F8F9FA;;
+}
+
+@media (max-width: 1199.98px) { 
+ 
+}
+
+@media (max-width: 991.98px) {  }
+
+
+@media (max-width: 767.98px) {  
+   
+}
+
+
+
+@media (max-width: 575.98px) {  }
+
+
